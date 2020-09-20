@@ -111,12 +111,7 @@ public class principal {
 		for(Auto auto : autos) {			
 			String[] data = {auto.getMarca(), auto.getModelo(), String.valueOf(auto.getYear())};
 			tableModel.addRow(data);
-		}
-		
-		//dsfdsfdsf
-		sdfsdfdsf
-		
-		
+		}		
 
 	}
 
@@ -146,12 +141,25 @@ public class principal {
 	        }
 	        autoModelo.get(auto.getMarca()).add(auto.getModelo());
 	    }
+	    asdasd
+	    asd
+	    asd
+	    asd
+	    asd
+	    asd
 	    for (Auto auto : autos) {
 	        if (!autoModelo.containsKey(auto.getMarca())) {
 	        	autoModelo.put(auto.getMarca(), new ArrayList<String>());
 	        }
 	        autoModelo.get(auto.getMarca()).add(auto.getModelo());
-	    }
+	    }a
+	    
+	    asd
+	    asd
+	    as
+	    das
+	    d
+	    asd
 	    for (Auto auto : autos) {
 	        if (!autoModelo.containsKey(auto.getMarca())) {
 	        	autoModelo.put(auto.getMarca(), new ArrayList<String>());
