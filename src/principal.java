@@ -130,7 +130,7 @@ public class principal {
 		autos.add(new Auto("Cherry", "QQ", 2010));	
 		
 		
-		autos.add(new Auto("Chevrolet", "Celta", 2004));	
+		autos.add(new Auto("Chevssssrolet", "Celta", 2004));	
 		autos.add(new Auto("Daewoo", "Tico", 1990));	
 		autos.add(new Auto("Chessssvrolet", "S10", 2018));	
 		autos.add(new Auto("Fiat", "Duna", 1989));	
