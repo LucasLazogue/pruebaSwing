@@ -146,5 +146,35 @@ public class principal {
 	        }
 	        autoModelo.get(auto.getMarca()).add(auto.getModelo());
 	    }
+	    for (Auto auto : autos) {
+	        if (!autoModelo.containsKey(auto.getMarca())) {
+	        	autoModelo.put(auto.getMarca(), new ArrayList<String>());
+	        }
+	        autoModelo.get(auto.getMarca()).add(auto.getModelo());
+	    }
+	    for (Auto auto : autos) {
+	        if (!autoModelo.containsKey(auto.getMarca())) {
+	        	autoModelo.put(auto.getMarca(), new ArrayList<String>());
+	        }
+	        autoModelo.get(auto.getMarca()).add(auto.getModelo());
+	    }
+	    for (Auto auto : autos) {
+	        if (!autoModelo.containsKey(auto.getMarca())) {
+	        	autoModelo.put(auto.getMarca(), new ArrayList<String>());
+	        }
+	        autoModelo.get(auto.getMarca()).add(auto.getModelo());
+	    }
+	    for (Auto auto : autos) {
+	        if (!autoModelo.containsKey(auto.getMarca())) {
+	        	autoModelo.put(auto.getMarca(), new ArrayList<String>());
+	        }
+	        autoModelo.get(auto.getMarca()).add(auto.getModelo());
+	    }
+	    for (Auto auto : autos) {
+	        if (!autoModelo.containsKey(auto.getMarca())) {
+	        	autoModelo.put(auto.getMarca(), new ArrayList<String>());
+	        }
+	        autoModelo.get(auto.getMarca()).add(auto.getModelo());
+	    }
 	}
 }
