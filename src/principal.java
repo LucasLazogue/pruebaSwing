@@ -119,15 +119,18 @@ public class principal {
 
 	private void crearAutos() {
 		autos = new ArrayList<Auto>();
-		autos.add(new Auto("Chasdasdsadasvrolet", "Spark", 2012));
-		autos.add(new Auto("Nissdasdasdan", "Sentra", 2015));
-		autos.add(new Auto("Fiasadasdasdt", "Toro", 2020));
-		autos.add(new Auto("Cheasdsadvrolet", "Onix", 2019));
-		autos.add(new Auto("Suzasdasduki", "Alto", 2013));	
+		autos.add(new Auto("Chevrolet", "Spark", 2012));
+		autos.add(new Auto("Nissan", "Sentra", 2015));
+		autos.add(new Auto("Fiat", "Toro", 2020));
+		autos.add(new Auto("Chevrolet", "Onix", 2019));
+		autos.add(new Auto("Suzuki", "Alto", 2013));	
 		autos.add(new Auto("Cherry", "QQ", 2010));	
+		
+		
+		
 		autos.add(new Auto("Chevrolet", "Celta", 2004));	
 		autos.add(new Auto("Daewoo", "Tico", 1990));	
-		autos.add(new Auto("Chevrolet", "S10", 2018));	
+		autos.add(new Auto("Chessssvrolet", "S10", 2018));	
 		autos.add(new Auto("Fiat", "Duna", 1989));	
 		autos.add(new Auto("Volkswagen", "Gol", 2017));	
 		autos.add(new Auto("Peugeot", "208", 2020));	
