@@ -140,41 +140,5 @@ public class principal {
 		autos.add(new Auto("Ford", "Fiesta", 2015));	
 		autos.add(new Auto("Volkswagen", "Vento", 2010));	
 		autos.add(new Auto("Honda", "Civic", 2017));	
-	    for (Auto auto : autos) {
-	        if (!autoModelo.containsKey(auto.getMarca())) {
-	        	autoModelo.put(auto.getMarca(), new ArrayList<String>());
-	        }
-	        autoModelo.get(auto.getMarca()).add(auto.getModelo());
-	    }
-	    for (Auto auto : autos) {
-	        if (!autoModelo.containsKey(auto.getMarca())) {
-	        	autoModelo.put(auto.getMarca(), new ArrayList<String>());
-	        }
-	        autoModelo.get(auto.getMarca()).add(auto.getModelo());
-	    }
-	    for (Auto auto : autos) {
-	        if (!autoModelo.containsKey(auto.getMarca())) {
-	        	autoModelo.put(auto.getMarca(), new ArrayList<String>());
-	        }
-	        autoModelo.get(auto.getMarca()).add(auto.getModelo());
-	    }
-	    for (Auto auto : autos) {
-	        if (!autoModelo.containsKey(auto.getMarca())) {
-	        	autoModelo.put(auto.getMarca(), new ArrayList<String>());
-	        }
-	        autoModelo.get(auto.getMarca()).add(auto.getModelo());
-	    }
-	    for (Auto auto : autos) {
-	        if (!autoModelo.containsKey(auto.getMarca())) {
-	        	autoModelo.put(auto.getMarca(), new ArrayList<String>());
-	        }
-	        autoModelo.get(auto.getMarca()).add(auto.getModelo());
-	    }
-	    for (Auto auto : autos) {
-	        if (!autoModelo.containsKey(auto.getMarca())) {
-	        	autoModelo.put(auto.getMarca(), new ArrayList<String>());
-	        }
-	        autoModelo.get(auto.getMarca()).add(auto.getModelo());
-	    }
-	}
+
 }
